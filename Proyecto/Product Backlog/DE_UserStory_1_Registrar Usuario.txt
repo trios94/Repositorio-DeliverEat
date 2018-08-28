@@ -1,0 +1,19 @@
+User Storie: Registrar Usuario
+
+Yo como cliente quiero registrarme para utilizar el servicio de DeliverEat 
+
+Criterios de aceptación
+* se debe registrar un usuario con mail válido y contraseña
+* la contraseña debe tener al menos 8 caracteres
+* se debe registrar un usuario con Facebook 
+* Se debe registrar un usuario con Google
+
+Pruebas de aceptación
+* probar registrar un cliente con Facebook (pasa)
+* probar registrar un cliente con Google (pasa)
+* probar registrar un cliente con mail válido y contraseña de 8 caracteres (pasa)
+* probar registrar un cliente con mail inválido (falla)
+* probar registrar un cliente con contraseña menor a 8 caracteres (falla)
+* probar registrar un cliente con twitter (falla)
+
+Estimación: 3 SP

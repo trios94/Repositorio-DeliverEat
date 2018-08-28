@@ -1,0 +1,19 @@
+User Story: Registrar Pago
+
+yo como cliente quiero registrar el pago del pedido para confirmarlo
+
+Criterios de aceptación
+* se debe registrar la dirección de entrega, forma de pago, hora y fecha de recepción 
+* se debe indicar el monto a pagar en caso de forma de pago en efectivo
+* se debe enviar una notificación con la información del pedido
+* se debe válidar que el pago con trajeta sólo sea con tarjeta VISA
+
+Pruebas de aceptación
+* probar registrar un pago con dirección de entrega, forma de pago con tarjeta VISA, hora y fecha de recepción (pasa)
+* probar registrar un pago con dirección de entrega, forma de pago con efectivo, hora y fecha de recepción (pasa)
+* probar registrar un pago sin dirección de entrega, forma de pago, hora y fecha de recepción  (falla)
+* probar registrar un pago en efectivo sin ingresar el monto (falla)
+
+Estimación: 5 SP
+
+

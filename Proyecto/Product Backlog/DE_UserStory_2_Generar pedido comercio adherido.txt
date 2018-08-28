@@ -1,0 +1,22 @@
+User Storie: Generar pedido comercio adherido
+
+yo como cliente deseo generar un pedido para recibirlo en mi domicilio
+
+Criterios de aceptación
+* los productos de un pedido deben ser del mismo comercio
+* el volumen del pedido no debe exceder el tamaño de la mochila del cadete
+* se debe indicar la dirección de retiro
+* se debe elegir al menos un producto
+* se deben completar los campos obligatorios: punto de pedido y local adherido
+* se debe guardar el estado del carrito al salir de la aplicación
+
+Pruebas de aceptación
+* probar generar pedido a un comercio adherido (pasa)
+* probar generar un pedido con volumen mayor a la mochila del cadete (falla)
+* probar generar un pedido sin los campos obligatorios completos (falla)
+* probar salir de la aplicación, volver a entrar y que el estado del carrito quede guardado (pasa)
+
+Estimación: 5 SP
+
+
+
