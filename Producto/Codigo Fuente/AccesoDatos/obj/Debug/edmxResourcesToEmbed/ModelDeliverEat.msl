@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DeliverEatModelStoreContainer" CdmEntityContainer="DeliverEatEntities">
+    <EntitySetMapping Name="ConfirmacionLoQueSea">
+      <EntityTypeMapping TypeName="DeliverEatModel.ConfirmacionLoQueSea">
+        <MappingFragment StoreEntitySet="ConfirmacionLoQueSea">
+          <ScalarProperty Name="Anulado" ColumnName="Anulado" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+          <ScalarProperty Name="CodSeguridadTarjeta" ColumnName="CodSeguridadTarjeta" />
+          <ScalarProperty Name="VencimientoTarjeta" ColumnName="VencimientoTarjeta" />
+          <ScalarProperty Name="NumeroTarjeta" ColumnName="NumeroTarjeta" />
+          <ScalarProperty Name="TitularTarjeta" ColumnName="TitularTarjeta" />
+          <ScalarProperty Name="AbonaEfectivo" ColumnName="AbonaEfectivo" />
+          <ScalarProperty Name="PagoTarjeta" ColumnName="PagoTarjeta" />
+          <ScalarProperty Name="HoraRecepcion" ColumnName="HoraRecepcion" />
+          <ScalarProperty Name="FechaRecepcion" ColumnName="FechaRecepcion" />
+          <ScalarProperty Name="EnvioPrioritario" ColumnName="EnvioPrioritario" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Piso" ColumnName="Piso" />
+          <ScalarProperty Name="CodPostal" ColumnName="CodPostal" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Calle" ColumnName="Calle" />
+          <ScalarProperty Name="IdPedido" ColumnName="IdPedido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImagenPedidoLoQueSea">
+      <EntityTypeMapping TypeName="DeliverEatModel.ImagenPedidoLoQueSea">
+        <MappingFragment StoreEntitySet="ImagenPedidoLoQueSea">
+          <ScalarProperty Name="RutaImagen" ColumnName="RutaImagen" />
+          <ScalarProperty Name="IdImagen" ColumnName="IdImagen" />
+          <ScalarProperty Name="IdPedido" ColumnName="IdPedido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PedidoLoQueSea">
+      <EntityTypeMapping TypeName="DeliverEatModel.PedidoLoQueSea">
+        <MappingFragment StoreEntitySet="PedidoLoQueSea">
+          <ScalarProperty Name="Anulado" ColumnName="Anulado" />
+          <ScalarProperty Name="FechaPedido" ColumnName="FechaPedido" />
+          <ScalarProperty Name="CostoTotal" ColumnName="CostoTotal" />
+          <ScalarProperty Name="PedidoAbierto" ColumnName="PedidoAbierto" />
+          <ScalarProperty Name="Longitud" ColumnName="Longitud" />
+          <ScalarProperty Name="Latitud" ColumnName="Latitud" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Piso" ColumnName="Piso" />
+          <ScalarProperty Name="CodPostal" ColumnName="CodPostal" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Calle" ColumnName="Calle" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdPedido" ColumnName="IdPedido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

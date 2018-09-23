@@ -1,0 +1,70 @@
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\DeliverEat.dll.config
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\DeliverEat.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\DeliverEat.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Antlr3.Runtime.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Newtonsoft.Json.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\System.Web.Optimization.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\WebGrease.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\System.Web.Optimization.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Antlr3.Runtime.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Newtonsoft.Json.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\es\System.Web.Optimization.resources.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\obj\Debug\DeliverEat.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\obj\Debug\DeliverEat.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\obj\Debug\DeliverEat.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\obj\Debug\DeliverEat.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\AccesoDatos.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\EntityFramework.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\EntityFramework.SqlServer.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\AccesoDatos.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\AccesoDatos.dll.config
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\EntityFramework.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Implementacion DeliverEat\DeliverEat\DeliverEat\bin\EntityFramework.SqlServer.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\DeliverEat.dll.config
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\DeliverEat.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\DeliverEat.pdb
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\AccesoDatos.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Antlr3.Runtime.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\AspNet.ScriptManager.bootstrap.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\AspNet.ScriptManager.jQuery.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Entidades.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\EntityFramework.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\EntityFramework.SqlServer.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.AI.Agent.Intercept.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.ApplicationInsights.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.AspNet.FriendlyUrls.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.ScriptManager.MSAjax.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.ScriptManager.WebForms.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.Web.Infrastructure.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Newtonsoft.Json.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\System.Web.Optimization.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\WebGrease.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\AccesoDatos.pdb
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\AccesoDatos.dll.config
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Entidades.pdb
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\EntityFramework.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\EntityFramework.SqlServer.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\System.Web.Optimization.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Antlr3.Runtime.pdb
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.AspNet.FriendlyUrls.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Newtonsoft.Json.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\Microsoft.ApplicationInsights.xml
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\es\System.Web.Optimization.resources.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.csprojResolveAssemblyReference.cache
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.csproj.CoreCompileInputs.cache
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.dll
+Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.pdb

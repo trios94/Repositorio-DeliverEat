@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DeliverEatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ConfirmacionLoQueSea">
+    <Key>
+      <PropertyRef Name="IdPedido" />
+    </Key>
+    <Property Name="IdPedido" Type="int" Nullable="false" />
+    <Property Name="Calle" Type="varchar" MaxLength="60" />
+    <Property Name="Numero" Type="int" />
+    <Property Name="CodPostal" Type="varchar" MaxLength="10" />
+    <Property Name="Piso" Type="int" />
+    <Property Name="Departamento" Type="char" MaxLength="3" />
+    <Property Name="EnvioPrioritario" Type="bit" />
+    <Property Name="FechaRecepcion" Type="char" MaxLength="10" />
+    <Property Name="HoraRecepcion" Type="char" MaxLength="5" />
+    <Property Name="PagoTarjeta" Type="bit" />
+    <Property Name="AbonaEfectivo" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="TitularTarjeta" Type="varchar" MaxLength="30" />
+    <Property Name="NumeroTarjeta" Type="char" MaxLength="16" />
+    <Property Name="VencimientoTarjeta" Type="char" MaxLength="7" />
+    <Property Name="CodSeguridadTarjeta" Type="char" MaxLength="3" />
+    <Property Name="FechaPago" Type="datetime" />
+    <Property Name="Anulado" Type="bit" />
+  </EntityType>
+  <EntityType Name="ImagenPedidoLoQueSea">
+    <Key>
+      <PropertyRef Name="IdPedido" />
+      <PropertyRef Name="IdImagen" />
+    </Key>
+    <Property Name="IdPedido" Type="int" Nullable="false" />
+    <Property Name="IdImagen" Type="int" Nullable="false" />
+    <Property Name="RutaImagen" Type="varchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="PedidoLoQueSea">
+    <Key>
+      <PropertyRef Name="IdPedido" />
+    </Key>
+    <Property Name="IdPedido" Type="int" Nullable="false" />
+    <Property Name="IdUsuario" Type="varchar" MaxLength="60" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="1000" />
+    <Property Name="Calle" Type="varchar" MaxLength="60" />
+    <Property Name="Numero" Type="int" />
+    <Property Name="CodPostal" Type="varchar" MaxLength="10" />
+    <Property Name="Piso" Type="int" />
+    <Property Name="Departamento" Type="char" MaxLength="3" />
+    <Property Name="Latitud" Type="varchar" MaxLength="20" />
+    <Property Name="Longitud" Type="varchar" MaxLength="20" />
+    <Property Name="PedidoAbierto" Type="bit" />
+    <Property Name="CostoTotal" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="FechaPedido" Type="datetime" />
+    <Property Name="Anulado" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="DeliverEatModelStoreContainer">
+    <EntitySet Name="ConfirmacionLoQueSea" EntityType="Self.ConfirmacionLoQueSea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImagenPedidoLoQueSea" EntityType="Self.ImagenPedidoLoQueSea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PedidoLoQueSea" EntityType="Self.PedidoLoQueSea" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
