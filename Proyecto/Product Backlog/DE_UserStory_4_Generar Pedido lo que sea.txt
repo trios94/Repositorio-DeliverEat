@@ -1,0 +1,18 @@
+User Story: Generar pedido "lo que sea"
+
+yo como cliente deseo generar un pedido de cualquier producto para recibirlo en mi domicilio
+
+Criterios de aceptación
+* se debe indicar la dirección de retiro
+* se debe escribir al menos un producto en el campo de pedido
+* se deben completar los campos obligatorios: direccion de retiro del pedido y domicilio de entrega
+* se puede pagar solo con visa.
+* no se puede pagar en cuotas.
+
+Pruebas de aceptación
+* probar generar pedido de lo que sea para enviar a un domicilio (pasa)
+* probar pagar con otra tarjeta que no es visa (falla)
+* probar pagar el pedido con visa (pasa)
+* probar generar un pedido sin los campos obligatorios completos (falla)
+
+Estimación: 5 SP
