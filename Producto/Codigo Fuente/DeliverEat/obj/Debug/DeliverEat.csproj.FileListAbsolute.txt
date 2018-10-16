@@ -68,3 +68,36 @@ Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.csproj
 Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.csproj.CoreCompileInputs.cache
 Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.dll
 Z:\biosoft_docs\Lucas\FACU\ISW\DeliverEat\DeliverEat\obj\Debug\DeliverEat.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\obj\Debug\DeliverEat.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\obj\Debug\DeliverEat.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\obj\Debug\DeliverEat.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\obj\Debug\DeliverEat.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\DeliverEat.dll.config
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\DeliverEat.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\DeliverEat.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Antlr3.Runtime.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Entidades.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\EntityFramework.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\EntityFramework.SqlServer.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Newtonsoft.Json.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\System.Web.Optimization.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\WebGrease.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Entidades.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\EntityFramework.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\EntityFramework.SqlServer.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\System.Web.Optimization.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Antlr3.Runtime.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Newtonsoft.Json.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\es\System.Web.Optimization.resources.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\DeliverEat\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll

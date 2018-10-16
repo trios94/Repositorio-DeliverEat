@@ -1,4 +1,4 @@
-﻿using AccesoDatos;
+﻿using Entidades;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,44 +19,28 @@ namespace DeliverEat
 
         protected void btnSiguiente_Click(object sender, EventArgs e)
         {
-            AccesoDatos.PedidoLoQueSea p = new AccesoDatos.PedidoLoQueSea();
-            try
-            {
-                using (var db = new DeliverEatEntities())
-                {
-                    AccesoDatos.PedidoLoQueSea ultimoPedido = db.PedidoLoQueSea.OrderByDescending(ped => ped.IdPedido).FirstOrDefault();
-                    p.IdPedido = ultimoPedido.IdPedido + 1;
-                }
-            }
-            catch (Exception ex)
-            {
-                lblMensaje.Text = "Error al generar id del pedido";
-                return;
-            }
-
+            PedidoLoQueSeaE p = new PedidoLoQueSeaE();
+            p.IdPedido = DateTime.Today.Day.ToString() + DateTime.Today.Month.ToString() + DateTime.Today.Year.ToString() + DateTime.Today.Hour.ToString() + DateTime.Today.Second.ToString();
             p.Descripcion = txtPedido.Text.Trim();
             p.CostoTotal = decimal.Parse(txtCostoPedido.Text.Trim());
             if (cbMapa.Checked)
             {
                 string coor = txtCoordenadas.Text.Trim().Replace("(", "").Replace(")", "");
-                p.Latitud = coor.Substring(0, coor.IndexOf(",") - 1);
-                p.Longitud = coor.Substring(coor.IndexOf(",") + 1);
+                p.LatitudComercio = coor.Substring(0, coor.IndexOf(",") - 1);
+                p.LongitudComercio = coor.Substring(coor.IndexOf(",") + 1);
             }
             else
             {
-                p.Calle = txtCalle.Text.Trim();
-                p.Numero = int.Parse(txtNumero.Text.Trim());
-                p.CodPostal = txtCodPostal.Text.Trim();
+                p.Callecomercio = txtCalle.Text.Trim();
+                p.NumeroComercio = int.Parse(txtNumero.Text.Trim());
+                p.CodPostalComercio = txtCodPostal.Text.Trim();
                 if (txtPiso.Text.Trim() != "")
-                    p.Piso = int.Parse(txtPiso.Text.Trim());
+                    p.PisoComercio = int.Parse(txtPiso.Text.Trim());
                 if (txtDepartamento.Text.Trim() != "")
-                    p.Departamento = txtDepartamento.Text.Trim();
+                    p.DepartamentoComercio = txtDepartamento.Text.Trim();
             }
 
-            p.PedidoAbierto = true;
-            p.FechaPedido = DateTime.Today;
-            List<AccesoDatos.ImagenPedidoLoQueSea> imagenes = new List<ImagenPedidoLoQueSea>();
-            string ruta = Server.MapPath("~/temp/" + p.IdPedido.ToString());
+            string ruta = Server.MapPath("~/temp/" + p.IdPedido);
             try
             {
 
@@ -77,11 +61,7 @@ namespace DeliverEat
                     }
                 }
 
-                using (var db = new DeliverEatEntities())
-                {
-                    db.PedidoLoQueSea.Add(p);
-                    db.SaveChanges();
-                }
+                Session["pedido"] = p;
             }
             catch (Exception ex)
             {
@@ -89,7 +69,6 @@ namespace DeliverEat
                 return;
             }
 
-            Session["pedido"] = p;
             Response.Redirect("ConfirmacionLoQueSea.aspx");
         }
 

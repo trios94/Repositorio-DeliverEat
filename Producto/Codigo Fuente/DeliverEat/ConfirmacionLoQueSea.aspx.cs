@@ -1,4 +1,4 @@
-﻿using AccesoDatos;
+﻿using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +10,12 @@ namespace DeliverEat
 {
     public partial class ConfirmacionLoQueSea : System.Web.UI.Page
     {
-        public AccesoDatos.PedidoLoQueSea p = new AccesoDatos.PedidoLoQueSea();
+        public PedidoLoQueSeaE p = new PedidoLoQueSeaE();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                p = (AccesoDatos.PedidoLoQueSea)Session["pedido"];
+                p = (PedidoLoQueSeaE)Session["pedido"];
                 txtCostoPedido.Text = p.CostoTotal.ToString();
                 txtPedido.Text = p.Descripcion;
                 txtComisión.Text = "30";
@@ -27,49 +27,46 @@ namespace DeliverEat
 
         protected void btnConfirmarPedido_Click(object sender, EventArgs e)
         {
-            AccesoDatos.ConfirmacionLoQueSea pago = new AccesoDatos.ConfirmacionLoQueSea();
-            AccesoDatos.PedidoLoQueSea pedido = (AccesoDatos.PedidoLoQueSea)Session["pedido"];
-            pago.IdPedido = pedido.IdPedido;
-            pago.Calle = txtCalle.Text.Trim();
-            pago.Numero = int.Parse(txtNumero.Text.Trim());
-            pago.CodPostal = txtCodPostal.Text.Trim();
+            p = (PedidoLoQueSeaE)Session["pedido"];
+            p.CalleRecepcion = txtCalle.Text.Trim();
+            p.NumeroRecepcion = int.Parse(txtNumero.Text.Trim());
+            p.CodPostalRecepcion = txtCodPostal.Text.Trim();
             if (txtPiso.Text.Trim() != "")
-                pago.Piso = int.Parse(txtPiso.Text.Trim());
+                p.PisoRecepcion = int.Parse(txtPiso.Text.Trim());
             if (txtDepartamento.Text.Trim() != "")
-                pago.Departamento = txtDepartamento.Text.Trim();
+                p.DepartamentoRecepcion = txtDepartamento.Text.Trim();
             if (txtTitularTarjeta.Text.Trim() != "")
             {
-                pago.PagoTarjeta = true;
-                pago.TitularTarjeta = txtTitularTarjeta.Text.Trim();
-                pago.NumeroTarjeta = txtNumeroTarjeta.Text.Trim();
-                pago.VencimientoTarjeta = txtVencimientoTarjeta.Text.Trim();
-                pago.CodSeguridadTarjeta = txtCodSeguridadTarjeta.Text.Trim();
+                p.PagoTarjeta = true;
+                p.TitularTarjeta = txtTitularTarjeta.Text.Trim();
+                p.NumeroTarjeta = txtNumeroTarjeta.Text.Trim();
+                p.VencimientoTarjeta = txtVencimientoTarjeta.Text.Trim();
+                p.CodSeguridadTarjeta = txtCodSeguridadTarjeta.Text.Trim();
+                p.Vuelto = 0;
             }
             else
             {
                 if (txtPagoEfectivo.Text.Trim() != "")
-                    pago.AbonaEfectivo = decimal.Parse(txtPagoEfectivo.Text.Trim());
+                {
+                    p.AbonaEfectivo = decimal.Parse(txtPagoEfectivo.Text.Trim());
+                    p.Vuelto = decimal.Parse(txtVuelto.Text.Trim());
+                }
+                    
             }
 
             if (ddlTipoEnvio.SelectedValue == "2")
-                pago.EnvioPrioritario = true;
+                p.EnvioPrioritario = true;
             else
             {
                 if (txtFechaRecepcion.Text.Trim() != "")
-                    pago.FechaRecepcion = txtFechaRecepcion.Text.Trim();
+                    p.FechaRecepcion = txtFechaRecepcion.Text.Trim();
                 if (txtHoraRecepcion.Text.Trim() != "")
-                    pago.FechaRecepcion = txtHoraRecepcion.Text.Trim();
+                    p.FechaRecepcion = txtHoraRecepcion.Text.Trim();
             }
-
-            pago.FechaPago = DateTime.Now;
 
             try
             {
-                using (var db = new DeliverEatEntities())
-                {
-                    db.ConfirmacionLoQueSea.Add(pago);
-                    db.SaveChanges();
-                }
+                Session["pedido"] = p;
             }
             catch (Exception ex)
             {
