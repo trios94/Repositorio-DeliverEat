@@ -1,0 +1,5 @@
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\Entidades\bin\Release\Entidades.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\Entidades\bin\Release\Entidades.pdb
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\Entidades\obj\Release\Entidades.dll
+C:\Users\lucas\Desktop\lucas\UTN - Ingenieria en Sistemas\4-Cuarto\Ingenieria de Software\Repositorio-DeliverEat\Producto\Codigo Fuente\Entidades\obj\Release\Entidades.pdb

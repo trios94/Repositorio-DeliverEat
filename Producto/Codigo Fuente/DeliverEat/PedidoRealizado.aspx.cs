@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,12 +10,12 @@ namespace DeliverEat
 {
     public partial class PedidoRealizado : System.Web.UI.Page
     {
-        public AccesoDatos.PedidoLoQueSea p = new AccesoDatos.PedidoLoQueSea();
+        public PedidoLoQueSeaE p = new PedidoLoQueSeaE();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
-                p = (AccesoDatos.PedidoLoQueSea)Session["pedido"];
+                p = (PedidoLoQueSeaE)Session["pedido"];
             }
         }
     }
